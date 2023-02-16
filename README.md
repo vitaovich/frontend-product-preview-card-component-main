@@ -50,7 +50,7 @@ az group create -l westus -n MyResourceGroup
 Create a static web app under a resource group and add Github workflow to deploy automatically.
 - [az staticwebapp](https://learn.microsoft.com/en-us/cli/azure/staticwebapp?view=azure-cli-latest) - additional info
 ```bash
-az staticwebapp create -n StarterNextJSTailwindCSS -g StarterNextJS -s https://github.com/<YOUR_GITHUB_USERNAME>/starter-nextjs-tailwindcss -l WestUs2 -b main --login-with-github
+az staticwebapp create -n StarterNextJSTailwindCSS -g StarterNextJS -s https://github.com/<YOUR_GITHUB_USERNAME>/frontend-product-preview-card-component-main -l WestUs2 -b main --login-with-github
 ```
 
 Pull latest changes
@@ -60,7 +60,7 @@ git pull
 
 Check deployment status at 
 ```bash 
-https://github.com/<YOUR_GITHUB_USERNAME>/starter-nextjs-tailwindcss/actions
+https://github.com/<YOUR_GITHUB_USERNAME>/frontend-product-preview-card-component-main/actions
 ```
 
 ## Delete static web app and remove commit
