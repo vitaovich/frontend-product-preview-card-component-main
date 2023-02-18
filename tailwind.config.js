@@ -9,6 +9,18 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: {
+      montserrat: ['Montserrat', 'sans-sarif'],
+      fraunces: ['Fraunces', 'sarif']
+    },
+    colors: {
+      'cream': '#f2ebe3',
+      'darkcyan': '#3c8067',
+      'hoverdarkcyan': '#244032',
+      'verydarkblue': '#1c232b',
+      'darkgrayishblue': '#6c7289',
+      'white': '#ffffff',
+    },
     extend: {},
   },
   plugins: [],
