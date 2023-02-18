@@ -10,14 +10,14 @@ export default function Home() {
   return (
     <>
       <div className='flex justify-center min-h-screen bg-cream'>
-        <div className="flex flex-col mx-4 my-10 bg-white rounded-lg md:flex-row md:items-center">
+        <div className="flex flex-col mx-4 my-10 bg-white rounded-lg md:flex-row">
             <div>
               <Image
                 src={selfImage}
                 alt="image-product-desktop"
                 className="mx-auto rounded-l-lg hidden md:block"
-                width={300}
-                height={450}
+                width={600}
+                height={900}
               />
               <Image
                 src="/images/image-product-mobile.jpg"
@@ -33,7 +33,7 @@ export default function Home() {
               <p className='text-darkgrayishblue text-xl font-montserrat'>
                 A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
               </p>
-              <div className="flex flex-row space-x-10">
+              <div className="flex flex-row items-center space-x-10">
                 <p className='text-5xl text-darkcyan font-fraunces'>
                   $149.99
                 </p>
