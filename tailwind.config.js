@@ -9,10 +9,6 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    fontFamily: {
-      montserrat: ['Montserrat', 'sans-sarif'],
-      fraunces: ['Fraunces', 'sarif']
-    },
     colors: {
       'cream': '#f2ebe3',
       'darkcyan': '#3c8067',
@@ -20,6 +16,13 @@ module.exports = {
       'verydarkblue': '#1c232b',
       'darkgrayishblue': '#6c7289',
       'white': '#ffffff',
+    },
+    fontFamily: {
+      montserrat: ['Montserrat', 'sans-sarif'],
+      fraunces: ['Fraunces', 'sarif']
+    },
+    letterSpacing: {
+      widest: '.5em'
     },
     extend: {},
   },

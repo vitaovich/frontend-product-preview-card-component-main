@@ -9,13 +9,12 @@ export default function Home() {
   const selfImage = "/images/image-product-desktop.jpg";
   return (
     <>
-      <div className='flex justify-center min-h-screen bg-cream'>
-        <div className="flex flex-col mx-4 my-10 bg-white rounded-lg md:flex-row">
-            <div>
+      <div className='flex items-center justify-center min-h-screen bg-cream'>
+        <div className="flex flex-col m-4 my-10 bg-white rounded-lg md:flex-row md:w-3/4 md:h-1/2 lg:w-1/2">
               <Image
                 src={selfImage}
                 alt="image-product-desktop"
-                className="mx-auto rounded-l-lg hidden md:block"
+                className="mx-auto rounded-l-lg hidden md:block md:w-1/2"
                 width={600}
                 height={900}
               />
@@ -26,15 +25,14 @@ export default function Home() {
                 width={686}
                 height={480}
               />
-            </div>
-            <div className="flex flex-col p-8 space-y-6">
-              <h2 className='text-darkgrayishblue text-xl font-montserrat'>PERFUME</h2>
-              <h1 className='text-verydarkblue text-5xl font-fraunces'>Gabrielle Essence Eau De Parfum</h1>
-              <p className='text-darkgrayishblue text-xl font-montserrat'>
+            <div className="flex flex-col p-6 space-y-6 md:p-8 md:w-1/2 md:pt-12">
+              <h2 className='text-darkgrayishblue text-sm font-montserrat tracking-widest'>PERFUME</h2>
+              <h1 className='text-verydarkblue text-4xl font-fraunces'>Gabrielle Essence Eau De Parfum</h1>
+              <p className='text-darkgrayishblue text-lg font-montserrat'>
                 A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.
               </p>
               <div className="flex flex-row items-center space-x-10">
-                <p className='text-5xl text-darkcyan font-fraunces'>
+                <p className='text-4xl text-darkcyan font-fraunces'>
                   $149.99
                 </p>
                 <p className='line-through text-darkgrayishblue'>
@@ -48,7 +46,7 @@ export default function Home() {
                 width={16}
                 height={16}
                 />
-                <span className='text-white text-xl font-montserrat font-bold'>Add to Cart</span>
+                <span className='text-white text-lg font-montserrat font-bold'>Add to Cart</span>
               </button>
             </div>
         </div>
